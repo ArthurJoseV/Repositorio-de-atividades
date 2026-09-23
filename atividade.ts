@@ -1,3 +1,4 @@
+/*
 //atividade 1
 
 let nome: string = "Arthur"
@@ -71,14 +72,15 @@ switch (diaSemana) {
 
 // atividade 6
 
-
+/** */
+/*
 for (let valor: number = 1; valor <= 10; valor++) {
     console.log(`Mariana conta ${valor}. Mariana conta ${valor}.`);
     console.log("Ana, viva Mariana! Viva Mariana!");
 }
-
+/** */
 // atividade 7
-
+/*
 
 let numero: number = 3
 
@@ -122,3 +124,12 @@ for (let numero of numeros) {
     }
 
 }
+    /*** */
+
+function imprimirNomes(): void {
+    const nomes: string[] = ["Ana", "Bruno", "Carla"];
+    for (let i = 0; i <= nomes.length; i++) {
+        console.log(nomes[i]);
+        }
+}
+imprimirNomes();
