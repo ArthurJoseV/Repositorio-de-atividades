@@ -1,0 +1,17 @@
+{
+  "name": "repositorio-de-atividades",
+  "version": "1.0.0",
+  "description": "Repositório de atividades com testes unitários",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vitest": "^3.0.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}
